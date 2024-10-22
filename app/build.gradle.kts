@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.prognozizmonza"
-        minSdk = 30
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -60,6 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation("io.coil-kt:coil-compose:2.0.0-rc01")
+    implementation ("com.google.accompanist:accompanist-pager:0.19.0")
+    implementation ("com.google.accompanist:accompanist-pager-indicators:0.19.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
